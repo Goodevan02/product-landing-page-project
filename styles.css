@@ -16,6 +16,14 @@ img{
 a {
     text-decoration: none;
 }
+
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 0px;
+    border-radius: 4px;
+    padding: 4px;
+}
 /* header styling*/
 
 .header{
@@ -28,11 +36,13 @@ a {
 
 .header-logo {
     margin-right: auto;
+    padding-left: 8px;
     font-size: 24px;
     color: #f9faf8;
 }
 
 .right-links {
+    padding-right: 8px;
     font-size: 18px;
     display: flex;
     gap: 8px;
@@ -51,14 +61,24 @@ a {
 .slice-1 {
     background-color: #1f2937;
     display: flex;
-    flex-basis: 500px;
+    flex-basis: 400px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .left-side {
     font-weight: bolder;
     flex-shrink: 1;
+}
+
+.left-side > div {
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.left-side > .subtext {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .right-side {
@@ -73,3 +93,38 @@ a {
     height: 300px;
     background-color: aquamarine;
 }
+
+/* slice 2 styles */
+
+.slice-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h-header{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.h-flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-w-subtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.image-w-subtext > .image-placeholder {
+    border: 4px solid #3882f6;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+/* slice 3 styles */
