@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin: 0px;
     font-family: sans-serif;
+    min-height: 100vh;
 }
 
 ul{
@@ -56,6 +57,7 @@ button{
 .body {
     display:flex ;
     flex-direction: column;
+    flex-grow:1;
 }
 
 /* slice 1 styling */
@@ -136,15 +138,27 @@ button{
 .slice-3 {
     background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-basis: 500px;
 }
-
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
 .quote{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
+}
+
+.quote-author {
+    color: #1f2937;
+    font-weight: bolder;
+    align-self: flex-end;
 }
 
 
