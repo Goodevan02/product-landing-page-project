@@ -90,6 +90,13 @@ button{
     flex-shrink: 1;
 }
 
+.left-side > button {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
 .left-side > div {
     color: #f9faf8;
     font-size: 48px;
@@ -105,13 +112,18 @@ button{
     justify-content: center;
     align-content: center;
     flex-shrink: 1;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .right-side > .image-placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 300px;
-    width: 600px;
-    background-color: aquamarine;
+    width: 860px;
+    margin: 100px;
+    margin-right: 0px;
+    color: #e5e7eb;
+    background-color: grey;
 }
 
 /* slice 2 styles */
