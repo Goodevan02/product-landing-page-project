@@ -1,0 +1,254 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header styling*/
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    
+}
+
+.header > .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1350px;
+}
+
+.header-logo {
+    margin-right: auto;
+    padding-left: 8px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.right-links {
+    padding-right: 8px;
+    font-size: 18px;
+    display: flex;
+    gap: 8px;
+}
+
+.right-links > a {
+    color:  #e5e7eb;
+}
+
+.body {
+    display:flex ;
+    flex-direction: column;
+    flex-grow:1;
+}
+
+/* slice 1 styling */
+.slice-1 {
+    background-color: #1f2937;
+
+}
+
+.slice-1 > .content {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1350px;
+}
+
+.left-side {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: start;
+    font-weight: bolder;
+    flex-shrink: 1;
+}
+
+.slice-1-btn {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 0px;
+    border-radius: 4px;
+    padding: 4px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+.left-side > div {
+    color: #f9faf8;
+    font-size: 48px;
+}
+
+.left-side > .subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-shrink: 1;
+}
+
+.right-side > .image-placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 860px;
+    margin: 100px;
+    margin-right: 0px;
+    color: #e5e7eb;
+    background-color: grey;
+}
+
+/* slice 2 styles */
+
+.slice-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 375px;
+}
+
+.h-header{
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+.h-flex-container {
+    flex-shrink: 1;
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.image-w-subtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 175px;
+    text-align: center;
+}
+
+.image-w-subtext > .image-placeholder {
+    border: 4px solid #3882f6;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    width: 175px;
+    height: 175px;
+}
+
+/* slice 3 styles */
+.slice-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 350px;
+}
+.quote-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-author {
+    color: #1f2937;
+    font-weight: bolder;
+    align-self: flex-end;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+/* slice 4*/
+
+.slice-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.modal {
+    background-color: #3882f6;
+    color: #f9faf8;
+    flex-basis: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.modal-btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 14px;
+    border: #f9faf8 solid 2px;
+    border-radius: 4px;
+    padding:5px 20px 5px 20px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.modal-btn:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.bold-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.less-important-text {
+    font-size: 18px;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
