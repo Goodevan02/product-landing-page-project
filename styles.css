@@ -143,9 +143,10 @@ button{
 }
 
 .h-flex-container {
+    flex-shrink: 1;
     display: flex;
-    justify-content: center;
-    gap: 75px;
+    width: 900px;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 
@@ -153,7 +154,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 200px;
+    width: 175px;
     text-align: center;
 }
 
@@ -161,8 +162,8 @@ button{
     border: 4px solid #3882f6;
     margin-bottom: 5px;
     border-radius: 15px;
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
 }
 
 /* slice 3 styles */
@@ -174,9 +175,10 @@ button{
     flex-basis: 350px;
 }
 .quote-container{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
-    width: 730px;
+    width: 1000px;
 }
 .quote{
     font-size: 36px;
@@ -192,6 +194,7 @@ button{
     margin-top: 16px;
     margin-right: 16px;
 }
+
 
 
 
